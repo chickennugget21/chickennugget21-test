@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="stylesheet" type="text/css" href="Style for Spring.css">
+<img src="text.png" alt="banner">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+</head>
+<body>
+<button type="button" onclick="myFunction()">Get Challenge</button>
+
+<p id = "OUTPUT" style =
+"font-size: 40px; color:black; text-align: center; font-family:times;"
+
+
+</p> 
+
+<script>
+var arr = ["Say hi to a stranger", "Hold the door for someone", "Pack a meal for a roommate", "Ask someone on a date",  "Tell someone why you admire them", "Message someone you haven't reached out to in a while", "Share lunch with a friend", "Email one of your teachers and tell them you are excited for the semester", "Write a thank you note to someone", "Pack a meal for someone", "Ask someone about their hobbies", "Share a treat with a stanger", "Ask your teacher how their day is going and compliment them", "Learn about a trial someone has gone through that changed their life", "Thank an employee for their service", "Pick up a piece a trash on campus and throw it away", "Disconnect to Connect: refrain from using your phone or earbuds today", "Volunteer to say a prayer in class","Make your roommates bed", "Ask someone if you can help them carry their groceries", "Clean up someone else's table after lunch or dinner", "Invite one of your roommates to go to an activity", "Clean up something in the apartment that is not yours", "Sit next to someone who looks lonely", "donate something", "High light someone on social media", "Called a loved one", "Pray for someone you have negative feelings for", "Dress up nice today", "Do something outside today", "Have a kneeling prayer today",];
+var put = document.getElementById('OUTPUT');
+
+function myFunction() {
+	put.innerHTML = arr[Math.floor(Math.random() * arr.length)]; 
+}
+</script>
+
+</body>
+</html>
